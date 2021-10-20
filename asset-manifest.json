@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "//asquardian.github.io/SiteReact/static/css/main.f8232e5c.chunk.css",
-    "main.js": "//asquardian.github.io/SiteReact/static/js/main.ab9d7d4d.chunk.js",
-    "main.js.map": "//asquardian.github.io/SiteReact/static/js/main.ab9d7d4d.chunk.js.map",
-    "runtime-main.js": "//asquardian.github.io/SiteReact/static/js/runtime-main.ec3f06e9.js",
-    "runtime-main.js.map": "//asquardian.github.io/SiteReact/static/js/runtime-main.ec3f06e9.js.map",
-    "static/js/2.df081fec.chunk.js": "//asquardian.github.io/SiteReact/static/js/2.df081fec.chunk.js",
-    "static/js/2.df081fec.chunk.js.map": "//asquardian.github.io/SiteReact/static/js/2.df081fec.chunk.js.map",
-    "static/js/3.bfc2acb7.chunk.js": "//asquardian.github.io/SiteReact/static/js/3.bfc2acb7.chunk.js",
-    "static/js/3.bfc2acb7.chunk.js.map": "//asquardian.github.io/SiteReact/static/js/3.bfc2acb7.chunk.js.map",
-    "index.html": "//asquardian.github.io/SiteReact/index.html",
-    "static/css/main.f8232e5c.chunk.css.map": "//asquardian.github.io/SiteReact/static/css/main.f8232e5c.chunk.css.map",
-    "static/js/2.df081fec.chunk.js.LICENSE.txt": "//asquardian.github.io/SiteReact/static/js/2.df081fec.chunk.js.LICENSE.txt"
+    "main.css": "/SiteReact/static/css/main.f8232e5c.chunk.css",
+    "main.js": "/SiteReact/static/js/main.ab9d7d4d.chunk.js",
+    "main.js.map": "/SiteReact/static/js/main.ab9d7d4d.chunk.js.map",
+    "runtime-main.js": "/SiteReact/static/js/runtime-main.058d727d.js",
+    "runtime-main.js.map": "/SiteReact/static/js/runtime-main.058d727d.js.map",
+    "static/js/2.df081fec.chunk.js": "/SiteReact/static/js/2.df081fec.chunk.js",
+    "static/js/2.df081fec.chunk.js.map": "/SiteReact/static/js/2.df081fec.chunk.js.map",
+    "static/js/3.bfc2acb7.chunk.js": "/SiteReact/static/js/3.bfc2acb7.chunk.js",
+    "static/js/3.bfc2acb7.chunk.js.map": "/SiteReact/static/js/3.bfc2acb7.chunk.js.map",
+    "index.html": "/SiteReact/index.html",
+    "static/css/main.f8232e5c.chunk.css.map": "/SiteReact/static/css/main.f8232e5c.chunk.css.map",
+    "static/js/2.df081fec.chunk.js.LICENSE.txt": "/SiteReact/static/js/2.df081fec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec3f06e9.js",
+    "static/js/runtime-main.058d727d.js",
     "static/js/2.df081fec.chunk.js",
     "static/css/main.f8232e5c.chunk.css",
     "static/js/main.ab9d7d4d.chunk.js"
