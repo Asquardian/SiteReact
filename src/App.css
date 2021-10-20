@@ -1,10 +1,82 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:visited {
+  color: whitesmoke;
+ }
+
+ .rel{
+   position: relative;
+ }
+.mar{
+  margin-top:-5px;
+}
+::-webkit-scrollbar{
+  width:10px;
+  background-color: #282c34;
+}
+::-webkit-scrollbar-thumb{
+  background-color: darkgrey;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(128, 128, 128);
+}
+ .borderMain{
+  top: 11%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 2px;
+  padding: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #606369;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5); 
+  width: 20%;
+  font-size: 16px;
+  color: aliceblue;
+ }
+
+ .borderJoin{
+  border-radius: 2px;
+  padding: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  background-color: #606369;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5); 
+  width: 20%;
+  margin:auto;
+  color: aliceblue;
+  margin-top: 200px;
+  margin-bottom: 250px;
+ }
+
+ .border2{
+  top: 43%;
+  left: 31%;
+ }
+ .border3{
+  top: 78%;
+  left: 50%;
+ }
+
+
+ .inputJoin{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +87,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +95,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.foot{
+  font-size: 10px;
+  min-height: 5vh;
+  color: rgb(255, 255, 255);
+}
+
 
 .App-link {
   color: #61dafb;
