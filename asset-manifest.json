@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SiteReact/static/css/main.6be7e07b.chunk.css",
+    "main.css": "/SiteReact/static/css/main.483264b4.chunk.css",
     "main.js": "/SiteReact/static/js/main.cc05190b.chunk.js",
     "main.js.map": "/SiteReact/static/js/main.cc05190b.chunk.js.map",
     "runtime-main.js": "/SiteReact/static/js/runtime-main.59fcaaa2.js",
@@ -10,13 +10,13 @@
     "static/js/3.7d08b063.chunk.js": "/SiteReact/static/js/3.7d08b063.chunk.js",
     "static/js/3.7d08b063.chunk.js.map": "/SiteReact/static/js/3.7d08b063.chunk.js.map",
     "index.html": "/SiteReact/index.html",
-    "static/css/main.6be7e07b.chunk.css.map": "/SiteReact/static/css/main.6be7e07b.chunk.css.map",
+    "static/css/main.483264b4.chunk.css.map": "/SiteReact/static/css/main.483264b4.chunk.css.map",
     "static/js/2.4689b506.chunk.js.LICENSE.txt": "/SiteReact/static/js/2.4689b506.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.59fcaaa2.js",
     "static/js/2.4689b506.chunk.js",
-    "static/css/main.6be7e07b.chunk.css",
+    "static/css/main.483264b4.chunk.css",
     "static/js/main.cc05190b.chunk.js"
   ]
 }
