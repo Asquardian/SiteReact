@@ -45,9 +45,40 @@ a:visited {
   background-color: #606369;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5); 
   width: 20%;
-  font-size: 90%;
+  font-size: 15px;
   color: aliceblue;
  }
+
+ @media only screen and (max-width : 480px) {
+   .rel{
+   overflow:hidden;
+   }
+   img{
+     width: 120%;
+     object-fit:cover;
+     transform:translate(-50%,-50%);
+   }
+   .border2{
+    width: 40%;
+   }
+   .border3{
+    width: 40%;
+   }
+   .borderMain{
+     font-size: 8px;
+     width: 30%;
+     left: 80%;
+     top: 13%;
+   }
+   .borderJoin{
+     position: relative;
+     font-size: 5px;
+     padding: 50%;
+     padding-left: 140%;
+     padding-right: 140%;
+     width: 140%;
+   }
+  }
 
  .borderMain:hover{
    box-shadow: 25px 25px 10px rgba(0,0,0,0.5); 
@@ -87,6 +118,10 @@ a:visited {
  .inputJoin{
   margin-top: 8%;
   margin-bottom: 8%;
+}
+
+.sizeof{
+  width: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
