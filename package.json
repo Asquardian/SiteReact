@@ -1,6 +1,6 @@
 {
   "name": "site",
-  "homepage": "https://asquardian.github.io/SiteReact",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
