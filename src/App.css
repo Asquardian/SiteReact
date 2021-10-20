@@ -12,7 +12,14 @@ a{
 a:visited {
   color: whitesmoke;
  }
-
+.fix{
+  position:fixed;
+  padding:inherit;
+  box-sizing: content-box;
+  object-fit:cover;
+  overflow: visible;
+  z-index: 3;
+}
  .rel{
    position: relative;
  }
@@ -48,94 +55,6 @@ a:visited {
   font-size: 15px;
   color: aliceblue;
  }
-
- @media only screen and (max-width : 480px) {
-   .rel{
-   overflow:hidden;
-   }
-   img{
-     width: 120%;
-     object-fit:cover;
-     transform:translate(-50%,-50%);
-   }
-   .border2{
-    width: 40%;
-   }
-   .border3{
-    width: 40%;
-   }
-   .borderMain{
-     font-size: 8px;
-     width: 30%;
-     left: 80%;
-     top: 13%;
-   }
-   .borderJoin{
-     position: relative;
-     font-size: 5px;
-     padding: 50%;
-     padding-left: 140%;
-     padding-right: 140%;
-     width: 140%;
-   }
-  }
-
-  @media only screen and (max-width : 768px) {
-    .rel{
-    overflow:hidden;
-    }
-    img{
-      width: 110%;
-      object-fit:cover;
-      transform:translate(-50%,-50%);
-    }
-    .border2{
-     width: 40%;
-    }
-    .border3{
-     width: 40%;
-    }
-    .borderMain{
-      font-size: 13px;
-      width: 30%;
-      left: 75%;
-      top: 13%;
-    }
-    .borderJoin{
-      position: relative;
-      font-size: 13px;
-    }
-   }
-  @media only screen and (max-width : 480px) {
-    .rel{
-    overflow:hidden;
-    }
-    img{
-      width: 120%;
-      object-fit:cover;
-      transform:translate(-50%,-50%);
-    }
-    .border2{
-     width: 40%;
-    }
-    .border3{
-     width: 40%;
-    }
-    .borderMain{
-      font-size: 8px;
-      width: 30%;
-      left: 80%;
-      top: 13%;
-    }
-    .borderJoin{
-      position: relative;
-      font-size: 5px;
-      padding: 50%;
-      padding-left: 140%;
-      padding-right: 140%;
-      width: 140%;
-    }
-   }
  .borderMain:hover{
    box-shadow: 25px 25px 10px rgba(0,0,0,0.5); 
    transition: 1s;
@@ -167,6 +86,19 @@ a:visited {
  }
  .border3{
   top: 78%;
+  left: 50%;
+ }
+
+ 
+ .menu{
+  position: fixed;
+  width: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+ .border4{
+  top: 50%;
   left: 50%;
  }
 
@@ -204,6 +136,16 @@ a:visited {
 }
 
 
+.footAbout{
+  font-size: 10px;
+  min-height: 5vh;
+  color: rgb(255, 255, 255);
+  bottom: 0;
+  position: absolute;
+  margin:auto;
+  width: 100%;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -216,3 +158,139 @@ a:visited {
     transform: rotate(360deg);
   }
 }
+
+
+
+@media only screen and (max-width : 480px) {
+  .rel{
+  overflow:hidden;
+  }
+  img{
+    width: 120%;
+    object-fit:cover;
+    transform:translate(-50%,-50%);
+  } 
+  .borderMain{
+    font-size: 8px;
+    width: 30%;
+    left: 80%;
+    top: 13%;
+  }
+  .border2{
+    top: 43%;
+    left: 31%;
+   width: 40%;
+  }
+  .border3{
+    top: 78%;
+    left: 50%;
+   width: 40%;
+  }
+  .border4{
+    top: 50%;
+    left: 50%;
+   width: 40%;
+  }
+  .borderJoin{
+    position: relative;
+    font-size: 5px;
+    padding: 50%;
+    padding-left: 140%;
+    padding-right: 140%;
+    width: 140%;
+  }
+ }
+
+ @media only screen and (max-width : 768px) {
+   .rel{
+   overflow:hidden;
+   }
+   img{
+     width: 110%;
+     object-fit:cover;
+     transform:translate(-50%,-50%);
+   }
+   
+   .menu{
+    width: 40px;
+   }
+   .borderMain{
+     font-size: 13px;
+     width: 30%;
+     left: 75%;
+     top: 13%;
+   }
+   .border2{
+     top: 43%;
+     left: 31%;
+    width: 40%;
+   }
+   .border3{
+     top: 78%;
+     left: 50%;
+    width: 40%;
+   }
+   .borderJoin{
+     position: relative;
+     font-size: 13px;
+   }
+   
+   .borderJoin{
+    position: relative;
+    font-size: 12px;
+    padding: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 30%;
+  }
+    .sizeof{
+      width: 100%;
+   }
+  }
+ @media only screen and (max-width : 480px) { 
+   .rel{
+   overflow:hidden;
+   }
+   img{
+     width: 120%;
+     object-fit:cover;
+     transform:translate(-50%,-50%);
+   }
+   
+   .menu{
+    width: 30px;
+   }
+   .borderMain{
+     font-size: 8px;
+     width: 30%;
+     left: 80%;
+     top: 13%;
+   }
+   .border2{
+     top: 43%;
+     left: 31%;
+    width: 40%;
+   }
+   .border3{
+     top: 78%;
+     left: 50%;
+    width: 40%;
+   }
+   
+  .border4{
+    top: 50%;
+    left: 50%;
+   width: 40%;
+  }
+   .borderJoin{
+     position: relative;
+     font-size: 8px;
+     padding: 15%;
+     padding-left: 15%;
+     padding-right: 15%;
+     width: 30%;
+   }
+   .sizeof{
+     width: 100%;
+  }
+  }

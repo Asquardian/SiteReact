@@ -37,6 +37,10 @@ class App extends React.Component {
     <form onSubmit={this.handleSubmit}><div align="center" class="borderJoin"><Fade><h1>Do you want to join?</h1></Fade>
     <label><input class="sizeof" type="text" placeholder="E-mail" value={this.state.email} onChange={this.handleChange}/></label>
     <label><input class="inputJoin" type="submit" value="Send"/></label></div></form>
+
+    <footer>
+   <div class="App-header foot">Copyright Asquardian</div></footer>
+
     </div>
     
   );
