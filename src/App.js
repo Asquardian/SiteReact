@@ -1,9 +1,25 @@
 import './App.css';
+import React from 'react'
 import Bounce from 'react-reveal/Bounce'
 import Fade from 'react-reveal/Fade'
 
-function App() {
-  return (
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {email: ''};
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({email: event.target.value});
+  }
+  
+  handleSubmit(event) {
+    alert('Thanks for choosing our company. Information will be send on ' + this.state.email + ' email');
+  }
+  render(){return (
     <div className="App">
       <header className="App-header">
         <a align="center" href="index.html"><Bounce>WorkSpace</Bounce></a>
@@ -18,12 +34,13 @@ function App() {
 </Bounce></div>
 
     </div>
-    <form><div align="center" class="borderJoin"><Fade><h1>Do you want to join?</h1></Fade>
-    <input type="text" placeholder="E-mail"/>
-    <input class="inputJoin" type="submit" value="Send"/></div></form>
+    <form onSubmit={this.handleSubmit}><div align="center" class="borderJoin"><Fade><h1>Do you want to join?</h1></Fade>
+    <label><input type="text" placeholder="E-mail" value={this.state.email} onChange={this.handleChange}/></label>
+    <label><input class="inputJoin" type="submit" value="Send"/></label></div></form>
     </div>
     
   );
+  }
 }
 
 export default App;

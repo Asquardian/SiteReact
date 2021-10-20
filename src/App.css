@@ -45,8 +45,13 @@ a:visited {
   background-color: #606369;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5); 
   width: 20%;
-  font-size: 16px;
+  font-size: 15px;
   color: aliceblue;
+ }
+
+ .borderMain:hover{
+   box-shadow: 25px 25px 10px rgba(0,0,0,0.5); 
+   transition: 1s;
  }
 
  .borderJoin{
@@ -62,6 +67,11 @@ a:visited {
   color: aliceblue;
   margin-top: 200px;
   margin-bottom: 250px;
+ }
+
+ .borderJoin:hover{
+  box-shadow: 25px 25px 10px rgba(0,0,0,0.5); 
+  transition: 1s;
  }
 
  .border2{
