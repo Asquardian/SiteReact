@@ -1,9 +1,10 @@
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import { fallDown as Menu } from 'react-burger-menu'
 import React from 'react'
 import About from '../About/About';
 import App from '../App';
 import  ReactDOM from 'react-dom'
+import png3 from '../3.png'
 
 class Burger extends React.Component {
     constructor(props) {
@@ -26,10 +27,19 @@ class Burger extends React.Component {
     document.getElementById('root')
   );
     }
-    
+    componentDidUpdate(){
+      window.scrollTo(0,0);
+      let hash = this.props.location.hash.replace('#', '');
+      if (hash) {
+        let node = ReactDOM.findDOMNode(this.refs[hash]);
+        if (node) {
+          node.scrollIntoView();
+        }
+      }
+    }
     render(){
     return (<a class="fix">
-    <Menu burgerButtonClassName={ "menu" } customBurgerIcon={<img src="3.png"/>}>
+    <Menu burgerButtonClassName={ "menu" } menuClassName={ "bm-menu"} customBurgerIcon={<img src={png3}/>}>
   <Router>
     <div>
       <nav>
@@ -42,12 +52,11 @@ class Burger extends React.Component {
           </li>
         </ul>
       </nav>
-
       <Switch>
-        <Route path="/About">
+        <Route path="/About" component={About}>
             {this.goAbout}
         </Route>
-        <Route path="/">
+        <Route path="/" component={App}>
             {this.goHome}
         </Route>
       </Switch>

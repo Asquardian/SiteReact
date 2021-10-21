@@ -7,7 +7,7 @@ class About extends React.Component {
     render() {return (
     <div className="App">
     <header className="App-header">
-      <a align="center" href="index.html"><Bounce>WorkSpace</Bounce></a>
+      <a align="center" href="/SiteReact/"><Bounce>WorkSpace</Bounce></a>
     </header>
         <div align="center" class="borderMain border4"><h1 align="center"><Fade>About</Fade></h1>
         <Bounce left>We are biggest company for designing of officeplace<br />

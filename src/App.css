@@ -92,9 +92,9 @@ a:visited {
  
  .menu{
   position: fixed;
-  width: 30px;
-  left: 36px;
-  top: 36px;
+  width: calc(30px + 2vmin);
+  left: 10px;
+  top: 10px;
 }
 
  .border4{
@@ -201,6 +201,12 @@ a:visited {
   }
  }
 
+ .bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
  @media only screen and (max-width : 768px) {
    .rel{
    overflow:hidden;
@@ -209,10 +215,6 @@ a:visited {
      width: 110%;
      object-fit:cover;
      transform:translate(-50%,-50%);
-   }
-   
-   .menu{
-    width: 40px;
    }
    .borderMain{
      font-size: 13px;
@@ -246,6 +248,12 @@ a:visited {
     .sizeof{
       width: 100%;
    }
+   .menu{
+    position: fixed;
+    width: calc(25px + 2vmin);
+    left: 30px;
+    top: 15px;
+  }
   }
  @media only screen and (max-width : 480px) { 
    .rel{
@@ -255,10 +263,6 @@ a:visited {
      width: 120%;
      object-fit:cover;
      transform:translate(-50%,-50%);
-   }
-   
-   .menu{
-    width: 30px;
    }
    .borderMain{
      font-size: 8px;
@@ -293,4 +297,10 @@ a:visited {
    .sizeof{
      width: 100%;
   }
+  .menu{
+   position: fixed;
+   width: calc(30px + 2vmin);
+   left: 30px;
+   top: 43px;
+ }
   }
