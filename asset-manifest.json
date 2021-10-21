@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/SiteReact/static/css/main.f8232e5c.chunk.css",
-    "main.js": "/SiteReact/static/js/main.122bbca4.chunk.js",
-    "main.js.map": "/SiteReact/static/js/main.122bbca4.chunk.js.map",
+    "main.css": "/SiteReact/static/css/main.0d5cf97e.chunk.css",
+    "main.js": "/SiteReact/static/js/main.0c72e700.chunk.js",
+    "main.js.map": "/SiteReact/static/js/main.0c72e700.chunk.js.map",
     "runtime-main.js": "/SiteReact/static/js/runtime-main.058d727d.js",
     "runtime-main.js.map": "/SiteReact/static/js/runtime-main.058d727d.js.map",
     "static/js/2.bf0a623a.chunk.js": "/SiteReact/static/js/2.bf0a623a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bfc2acb7.chunk.js": "/SiteReact/static/js/3.bfc2acb7.chunk.js",
     "static/js/3.bfc2acb7.chunk.js.map": "/SiteReact/static/js/3.bfc2acb7.chunk.js.map",
     "index.html": "/SiteReact/index.html",
-    "static/css/main.f8232e5c.chunk.css.map": "/SiteReact/static/css/main.f8232e5c.chunk.css.map",
+    "static/css/main.0d5cf97e.chunk.css.map": "/SiteReact/static/css/main.0d5cf97e.chunk.css.map",
     "static/js/2.bf0a623a.chunk.js.LICENSE.txt": "/SiteReact/static/js/2.bf0a623a.chunk.js.LICENSE.txt",
     "static/media/1.6722dcaf.jpg": "/SiteReact/static/media/1.6722dcaf.jpg",
     "static/media/2.ccbe3ec0.jpg": "/SiteReact/static/media/2.ccbe3ec0.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.058d727d.js",
     "static/js/2.bf0a623a.chunk.js",
-    "static/css/main.f8232e5c.chunk.css",
-    "static/js/main.122bbca4.chunk.js"
+    "static/css/main.0d5cf97e.chunk.css",
+    "static/js/main.0c72e700.chunk.js"
   ]
 }
